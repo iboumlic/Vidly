@@ -166,15 +166,42 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201612220653562_IntitialModel.cs" />
+    <Compile Include="Migrations\201612220653562_IntitialModel.Designer.cs">
+      <DependentUpon>201612220653562_IntitialModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612220713125_AddIsSubscribedToNewsLetter.cs" />
+    <Compile Include="Migrations\201612220713125_AddIsSubscribedToNewsLetter.Designer.cs">
+      <DependentUpon>201612220713125_AddIsSubscribedToNewsLetter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612220727098_AddPropertyCustomer.cs" />
+    <Compile Include="Migrations\201612220727098_AddPropertyCustomer.Designer.cs">
+      <DependentUpon>201612220727098_AddPropertyCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612220737141_AddMembershipType.cs" />
+    <Compile Include="Migrations\201612220737141_AddMembershipType.Designer.cs">
+      <DependentUpon>201612220737141_AddMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612220741242_PopulateMembershipType.cs" />
+    <Compile Include="Migrations\201612220741242_PopulateMembershipType.Designer.cs">
+      <DependentUpon>201612220741242_PopulateMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612220753311_ApplyAnnotationToCustomerName.cs" />
+    <Compile Include="Migrations\201612220753311_ApplyAnnotationToCustomerName.Designer.cs">
+      <DependentUpon>201612220753311_ApplyAnnotationToCustomerName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-cerulean.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
@@ -247,6 +274,26 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201612220653562_IntitialModel.resx">
+      <DependentUpon>201612220653562_IntitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612220713125_AddIsSubscribedToNewsLetter.resx">
+      <DependentUpon>201612220713125_AddIsSubscribedToNewsLetter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612220727098_AddPropertyCustomer.resx">
+      <DependentUpon>201612220727098_AddPropertyCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612220737141_AddMembershipType.resx">
+      <DependentUpon>201612220737141_AddMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612220741242_PopulateMembershipType.resx">
+      <DependentUpon>201612220741242_PopulateMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612220753311_ApplyAnnotationToCustomerName.resx">
+      <DependentUpon>201612220753311_ApplyAnnotationToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

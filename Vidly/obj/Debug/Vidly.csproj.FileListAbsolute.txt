@@ -52,4 +52,10 @@ c:\users\issam\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.O
 c:\users\issam\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 c:\users\issam\documents\visual studio 2013\Projects\Vidly\Vidly\obj\Debug\Vidly.dll
 c:\users\issam\documents\visual studio 2013\Projects\Vidly\Vidly\obj\Debug\Vidly.pdb
-C:\Users\issam\documents\visual studio 2013\Projects\Vidly\Vidly\obj\Debug\Vidly.csprojResolveAssemblyReference.cache
+C:\Users\issam\documents\visual studio 2013\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.IntitialModel.resources
+C:\Users\issam\documents\visual studio 2013\Projects\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.Cache
+C:\Users\issam\documents\visual studio 2013\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubscribedToNewsLetter.resources
+C:\Users\issam\documents\visual studio 2013\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddPropertyCustomer.resources
+C:\Users\issam\documents\visual studio 2013\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
+C:\Users\issam\documents\visual studio 2013\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipType.resources
+C:\Users\issam\documents\visual studio 2013\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationToCustomerName.resources
